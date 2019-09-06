@@ -1,0 +1,11 @@
+/* .col-sm-3 {
+  height: 200px;
+} */
+
+.col-sm-3:nth-child(2n+1) {
+  background-color: lavender;
+}
+
+.col-sm-3:nth-child(2n) {
+  background-color: orange;
+}
